@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <title>핸드폰번호 가리기</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="shortcut icon" type="image/png" href="../../jasmine/lib/jasmine-2.5.2/jasmine_favicon.png">
+    <link rel="stylesheet" type="text/css" href="../../jasmine/lib/jasmine-2.5.2/jasmine.css">
+
+    <script type="text/javascript" src="../../jasmine/lib/jasmine-2.5.2/jasmine.js"></script>
+    <script type="text/javascript" src="../../jasmine/lib/jasmine-2.5.2/jasmine-html.js"></script>
+    <script type="text/javascript" src="../../jasmine/lib/jasmine-2.5.2/boot.js"></script>
+  </head>
+  <body>
+    <script src="solutions.js" type="text/javascript"></script>
+    <script>
+      describe("hide_numbers(s)", function() {
+        it("substring으로 마지막 4개의 숫자를 자르고 나머지 숫자들 길이만큼 for문으로 *을 더했다", function() {
+          let result = hide_numbers_me('01033334444');
+
+          expect(result).toBe('*******4444');
+        });
+      });
+    </script>
+  </body>
+</html>
