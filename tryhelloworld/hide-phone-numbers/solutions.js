@@ -2,7 +2,8 @@
 // 전화번호를 문자열 s로 입력받는 hide_numbers함수를 완성해 별이를 도와주세요
 // 예를들어 s가 "01033334444"면 "*******4444"를 리턴하고, "027778888"인 경우는 "*****8888"을 리턴하면 됩니다.
 
-function hide_numbers_me(s){
+// 반복문으로 *을 더해서 푼다
+function hide_numbers(s) {
   var result = ""
   
   const restLength = s.length - 4,
@@ -16,3 +17,11 @@ function hide_numbers_me(s){
   
   return result;
 }
+
+// 정규표현식을 사용해서 푼다
+function hide_numbers1(s) {
+  let result = '';
+  s.replace(/ /, '*');
+}
+
+// Array
