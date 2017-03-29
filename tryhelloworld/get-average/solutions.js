@@ -1,12 +1,27 @@
+// reduce
 function average(array){
-  //함수를 완성하세요
-  let len = array.length;
-  if (len >= 1) {
-    let sum = array.reduce(function (prev, curr) {
-	    return prev + curr;
-    });
-    return sum/len;
+  return array.reduce((prev, curr) => prev + curr) / array.length;
+}
+
+// for
+function average1(arr) {
+  let sum = 0,
+    len = arr.length;
+  
+  for (let i = 0; i < len; i++) {
+    sum += arr[i];
   }
 
-  return 0;
+  return sum / len;
+}
+
+// for-of
+function average2(arr) {
+  let sum = 0;
+
+  for (let item of arr) {
+    sum += item;
+  }
+
+  return sum / arr.length;
 }
