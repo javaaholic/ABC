@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Always Be Coding",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "karma start"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/javaaholic/ABC/issues"
   },
-  "homepage": "https://github.com/javaaholic/ABC#readme"
+  "homepage": "https://github.com/javaaholic/ABC#readme",
+  "devDependencies": {
+    "jasmine-core": "^2.5.2",
+    "karma": "^1.6.0",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-jasmine": "^1.1.0"
+  }
 }
