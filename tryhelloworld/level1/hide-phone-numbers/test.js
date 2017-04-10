@@ -8,4 +8,9 @@ describe("hide_numbers(s) 전화번호 문자열을 입력받아 나머지 4자�
     expect(hide_numbers1('01033332222')).toEqual('*******2222');
     expect(hide_numbers1('023331111')).toEqual('*****1111');
   });
+
+  it('regex', () => {
+    expect(hide_numbers2('01033332222')).toEqual('*******2222');
+    expect(hide_numbers2('023331111')).toEqual('*****1111');    
+  });
 });
