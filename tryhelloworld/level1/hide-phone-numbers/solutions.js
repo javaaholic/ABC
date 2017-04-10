@@ -19,11 +19,9 @@ function hide_numbers(s) {
 }
 
 
-// regex
+// replace
 function hide_numbers1(s) {
-  let result = '';
-  s.replace(/ /, '*');
+  const restLength = s.length - 4;
+
+  return s.substring(0, restLength).replace(/\d/g, '*') + s.substring(restLength);
 }
-
-
-// Array
