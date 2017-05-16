@@ -1,6 +1,7 @@
 /*
-짝수이면 'Even'을 홀수이면 'Odd'를 반환하라
-*/
+ * 짝수와 홀수
+ * http://tryhelloworld.co.kr/challenge_codes/122
+ */
 
 // 삼항 조건문
 function evenOrOdd(num) {

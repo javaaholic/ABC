@@ -1,6 +1,7 @@
 /*
-인자로 넘어온 배열의 평균값 구하기
-*/
+ * 평균 구하기
+ * http://tryhelloworld.co.kr/challenge_codes/126
+ */
 
 
 // reduce
@@ -13,7 +14,7 @@ function average(array){
 function average1(arr) {
   let sum = 0,
     len = arr.length;
-  
+
   for (let i = 0; i < len; i++) {
     sum += arr[i];
   }

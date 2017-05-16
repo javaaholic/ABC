@@ -1,6 +1,7 @@
 /*
-정수 n을 입력해서 임의의 정수 x의 제곱이면 x+1의 제곱을, 아니면 'no'를 반환한다
-*/
+ * 정수 제곱근 판별하기
+ * http://tryhelloworld.co.kr/challenge_codes/120
+ */
 
 // includes() 문자열 .으로 정수를 판별
 function nextSqaure(n){

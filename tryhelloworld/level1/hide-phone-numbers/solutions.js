@@ -1,18 +1,18 @@
 /*
-전화번호 가리기
-예: 01012345678 => 0101234****, 021234567 => 02123****
-*/
+ * 전화번호 가리기
+ * http://tryhelloworld.co.kr/challenge_codes/132
+ */
 
 // for
 function hide_numbers(s) {
   const restLength = s.length - 4;
   let result = '';
-  
+
   for (let i = 0; i < restLength; i++) {
     result += '*';
   }
   result += s.substring(restLength);
-  
+
   return result;
 }
 

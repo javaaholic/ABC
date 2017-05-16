@@ -1,6 +1,7 @@
 /*
-*로 입력한 숫자 높이의 뒤집힌 삼각형 만들기
-*/
+ * 역삼각형 출력하기
+ * http://tryhelloworld.co.kr/challenge_codes/113
+ */
 
 // for
 function printReversedTriangle(num) {
