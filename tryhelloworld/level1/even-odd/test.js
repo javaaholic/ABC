@@ -3,4 +3,9 @@ describe('evenOrOdd(num) 숫자를 입력 받아 짝수이면 "Even"을 홀수�
     expect(evenOrOdd(10010102)).toEqual('Even');
     expect(evenOrOdd(232231)).toEqual('Odd');
   });
+
+  it('if', () => {
+    expect(evenOrOdd1(22222)).toEqual('Even');
+    expect(evenOrOdd1(22221)).toEqual('Odd');
+  });
 });

@@ -9,3 +9,10 @@ function evenOrOdd(num) {
 }
 
 // if
+function evenOrOdd1(num) {
+  if (num % 2) {
+    return 'Odd';
+  } else {
+    return 'Even';
+  }
+}
